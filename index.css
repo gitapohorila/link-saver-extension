@@ -10,21 +10,59 @@ input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
-    margin-bottom: 4px;
+    border-radius: 25px;
+    border: 1.5px solid #C1B7C7;
+    background: #FFFAFA;
+    margin-bottom: 10px;
+    display: flex;
+    height: 32px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    color: #000;
+    font-family: FLURO;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.buttons {
+    width:99%;
+    display: flex;
+    padding: 6px 9px;
+    align-items: center;
+    gap: 14px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 button {
-    background: #5f9341;
-    color: white;
+    border-radius: 17px;
+    background: #F2F2F2;
+    color:black;
     padding: 10px 20px;
-    border: 1px solid #5f9341;
-    font-weight: bold;
+    border: none;
+    color: #000;
+    font-family: FLURO;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
 }
 
 #delete-btn {
-    background: white;
-    color: #5f9341;
+    position: relative;
+    width: 131px;
+    height: 33px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 17px;
+    background: #8765FF;
+    cursor: pointer;
 }
 
 ul {
@@ -38,7 +76,14 @@ li {
 }
 
 a {
-    color: #5f9341;
+    color: #FFF;
+    font-family: FLURO;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-decoration: none;
 }
 
 
