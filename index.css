@@ -27,14 +27,11 @@ input {
     line-height: normal;
 }
 .buttons {
-    width:99%;
+    min-width:400px;
     display: flex;
     padding: 6px 9px;
     align-items: center;
     gap: 14px;
-    border-radius: 16px;
-    background: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 button {
@@ -45,7 +42,7 @@ button {
     border: none;
     color: #000;
     font-family: FLURO;
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -53,16 +50,10 @@ button {
 }
 
 #delete-btn {
-    position: relative;
+    background: #724CF9;
     width: 131px;
-    height: 33px;
-    padding: 10px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 17px;
-    background: #8765FF;
-    cursor: pointer;
+    color:white;
+    border: 1px solid white;
 }
 
 ul {
